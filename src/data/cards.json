@@ -1,0 +1,53 @@
+
+
+{
+    "card1": {
+        "type": "text",
+        "variant": "blue",
+        "title": "Data Science",
+        "body": "Intro — AI vs ML. Exploratory data analysis: Pandas and NumPy.Visual data analysis."
+    },
+    "card2": {
+        "type": "person",
+        "image": "./assets/person1",
+        "backgroundColor": "red",
+        "title": "Дмитро Тесон",
+        "subtitle": "Head of Data Science Department in Nymoc",
+        "description": "Протягом 10 років займається аналітикою соціальлних мереж та реклами. Практикує розробку систем машинного навчання"
+    },
+    "card3": {
+        "type": "text",
+        "variant": "yellow",
+        "title": "Classic Machine Learning",
+        "body": "Classic Machine Learning Linear/polynomial regression.Logistic regression.NLP features.Evaluating models. Validation. Metrics.Time series analysis.Decision trees.Random forest / bagging.Boosting — XGBoost, LightGBM, CatBoost.Unsupervised learning.Feature engineering.Feature importance."
+    },
+    "card4": {
+        "type": "person",
+        "image": "./assets/person2",
+        "backgroundColor": "red",
+        "title": "Ірина Дубіна",
+        "subtitle": "Data Scientist in Open AI",
+        "description": "Має багаторічний досвід розв’язання задач Machine Learning та практочної імплементації їх результатів. Спеціалізується на Time series analysis,  Decision trees та Feature engineering."
+    },
+    "card5": {
+        "type": "text",
+        "variant": "red",
+        "title": "Intro to Deep Learning",
+        "body": "Basic neural networks.Into to PyTorch.DL in NLP.DL in CV."
+    },
+    "card6": {
+        "type": "person",
+        "image": "./assets/person3",
+        "backgroundColor": "red",
+        "title": "Олександр Моршко",
+        "subtitle": "CV Lead in MonitorScign",
+        "description": "Понад 12 років досвіду роботи у сфері розробки neural networks. Працює із Computer Visionб спеціалізується на завданнях з класифікації, object detection, OCR, metric learning."
+    },
+    "card7": {
+        "type": "backgroundImageText",
+        "image": "./assets/cardBackground1",
+        "color": "white",
+        "title": "Дізнайтеся більше",
+        "body": "Почитайте про реальні кейси та проекти студентів курсу, що було реалізовано."
+    }
+}

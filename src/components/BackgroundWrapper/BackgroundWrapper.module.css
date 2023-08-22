@@ -1,0 +1,8 @@
+
+.background__container {
+    width: 100vw;
+    height: auto;
+    background: #FEFAF6;
+    background-image: radial-gradient(var(--accent_orange_30) 1px, transparent 0);
+    background-size: 40px 40px;
+}

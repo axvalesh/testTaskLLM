@@ -1,0 +1,73 @@
+
+.yellow {
+    color: var(--accent_yellow);
+}
+
+.orange {
+    color: var(--accent_orange);
+}
+
+.blue {
+    color: var(--accent_blue);
+}
+
+.card__item {
+    box-sizing: border-box;
+    flex: 0 0 358px;
+    min-height: 520px;
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    background-repeat: no-repeat;
+}
+
+.person__item {
+    gap: 16px;
+}
+
+.person__item__subtitle {
+    text-align: center;
+}
+
+.background__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.card__item>h5 {
+    text-align: center;
+}
+.card__item ul {
+    margin-bottom: auto;
+}
+.card__item li {
+    display: list-item;
+    list-style: disc;
+}
+
+.cubes__image {
+    max-width: 70px;
+    height: auto;
+    align-self: flex-end;
+}
+
+.personOpinion__item {
+    background-color: white;
+}
+
+.personOpinion__item__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (min-width: 1024px) {
+    .card__item {
+        min-height: 600px;
+        flex: 0 0 468px;
+    }
+}

@@ -1,0 +1,37 @@
+
+.socialLinks__wrapper {
+    display: flex;
+    gap: 34px;
+}
+
+.socialLinks__wrapper__media {
+    display: flex;
+    gap: 16px;
+}
+
+@media (min-width: 768px) {
+    .socialLinks__wrapper__media {
+        gap: 24px;
+    }
+
+    .socialLinks__wrapper {
+        gap: 110px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .socialLinks__wrapper__media {
+        flex-direction: column;
+    }
+
+    .socialLinks__wrapper {
+        gap: 176px;
+    }
+
+    .socialLinks__wrapper__messageIcon {
+        display: flex;
+        align-items: flex-end;
+    }
+
+
+}

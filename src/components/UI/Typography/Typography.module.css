@@ -1,0 +1,104 @@
+.h1 { /*h3 on 390px layout*/
+    font-size: 2.5rem;
+    line-height: 125%;
+    font-weight: 600;
+}
+
+.h4 { /*h4 on 390px layout*/
+    font-size: 2rem;
+    line-height: 100%;
+    font-weight: 600;
+}
+
+.body2 { /*body text 4 on 390px layout*/
+    font-size: 1.125rem;
+    line-height: 127%;
+}
+
+.body1 { /*body text 3 on 390px layout*/
+    font-size: 1.5rem;
+    line-height: 104%;
+}
+
+.h5 { /*h5 on 390px layout*/
+    font-size: 1.5rem;
+    line-height: 125%;
+    font-weight: 600;
+}
+
+.inputText { /*input on 390px layout*/
+    font-size: 0.875rem;
+}
+
+.subtitle { /*subtitle  on 390px layout*/
+    font-size: 0.75rem;
+    line-height: 125%;
+}
+
+.button {
+    font-size: 1.125rem;
+    line-height: 125%;
+    font-weight: 600;
+}
+
+@media (min-width: 768px) {
+    .h1 {  /*h2 on 390px layout*/
+        font-size: 3rem;
+        line-height: 125%;
+        letter-spacing: 5px;
+        font-weight: 600;
+    }
+    
+    .h4 { /*h3 on 390px layout*/
+        font-size: 2.5rem;
+        line-height: 125%;
+        font-weight: 600;
+    }
+    
+    .body2 { /*body text 3 on 390px layout*/
+        font-size: 1.5rem;
+        line-height: 104%;
+    }
+    
+    .h5 { /*h4 on 390px layout*/
+        font-size: 2rem;
+        line-height: 100%;
+        font-weight: 600;
+    }
+    
+    .subtitle {
+        font-size: 0.75rem;
+        line-height: 125%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .h1 {  /*h2 on 390px layout*/
+        font-size: 4.5rem;
+        line-height: 125%;
+        letter-spacing: 5px;
+        font-weight: 600;
+    }
+    
+    .h4 { /*h3 on 390px layout*/
+        font-size: 2.5rem;
+        line-height: 125%;
+        font-weight: 600;
+    }
+    
+    .body2 { /*body text 3 on 390px layout*/
+        font-size: 1.5rem;
+        line-height: 104%;
+    }
+    
+    .h5 { /*h4 on 390px layout*/
+        font-size: 2rem;
+        line-height: 100%;
+        font-weight: 600;
+    }
+    
+    .subtitle {
+        font-size: 0.75rem;
+        line-height: 125%;
+    }
+}
